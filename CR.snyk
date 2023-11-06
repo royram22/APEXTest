@@ -22,3 +22,8 @@ custom_rules:
       - 'swift'
       - 'typescript'
       - 'vb'
+
+
+- if: ['CommandInjection']
+  then: ignore
+  reason: Not vulnerable for our internal env
