@@ -23,7 +23,7 @@ custom_rules:
       - 'typescript'
       - 'vb'
 
-
+policies:
 - if: ['CommandInjection']
   then: ignore
   reason: Not vulnerable for our internal env
