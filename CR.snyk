@@ -1,5 +1,5 @@
 policies:
-- if: ['CommandInjection']
+- if: [ CommandInjection ]
   then: ignore
 
 custom_rules:
