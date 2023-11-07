@@ -1,3 +1,7 @@
+policies:
+- if: ['CommandInjection']
+  then: ignore
+
 custom_rules:
   - id: 'Apex Test'
     description: 'test'
@@ -22,8 +26,3 @@ custom_rules:
       - 'swift'
       - 'typescript'
       - 'vb'
-
-policies:
-- if: ['CommandInjection']
-  then: ignore
-  reason: Not vulnerable for our internal env
